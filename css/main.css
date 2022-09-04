@@ -1,0 +1,45 @@
+.quiz-app {
+  background-color: #f8f8f8;
+  width: 800px;
+}
+.quiz-app .answers-area .answer {
+  background-color: #f8f8f8;
+}
+.quiz-app .answers-area .answer:not(:last-child) {
+  border-bottom: 1px solid #dfdfdf;
+}
+.quiz-app .answers-area .answer input:checked + label {
+  color: #0075ff;
+}
+.quiz-app .answers-area .answer label {
+  padding-left: 4px;
+  cursor: pointer;
+  font-weight: bold;
+  color: #777;
+  font-size: 14px;
+}
+.quiz-app button:focus {
+  outline: none;
+}
+.quiz-app .bullets {
+  border-top: 1px solid #dfdfdf;
+}
+.quiz-app .bullets .spans span {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #dfdfdf;
+  margin-right: 5px;
+}
+.quiz-app .bullets .spans span.on {
+  background-color: #0075ff;
+}
+.quiz-app .results span.bad {
+  color: #dc0a0a;
+}
+.quiz-app .results span.good {
+  color: #009688;
+}
+.quiz-app .results span.perfect {
+  color: #0075ff;
+}/*# sourceMappingURL=main.css.map */

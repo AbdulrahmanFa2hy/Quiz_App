@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="css/main.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="quiz-app mx-auto my-5 p-4">
+      <div class="quiz-info bg-white p-3 d-flex justify-content-between">
+        <div class="category">Category: <span>HTML</span></div>
+        <div class="count">Questions Count: <span></span></div>
+      </div>
+      <div class="quiz-area mt-4 bg-white p-4"></div>
+      <div class="answers-area bg-white pb-4 px-4">
+        <!-- <div class="answer p-2">
+          <input
+            type="radio"
+            class="form-check-input"
+            name="question"
+            id="answer_1"
+            checked
+          />
+          <label for="answer_1" class="form-check-label"
+            >To Make Text Bold</label
+          >
+        </div>
+        <div class="answer p-2">
+          <input
+            type="radio"
+            class="form-check-input"
+            name="question"
+            id="answer_2"
+          />
+          <label for="answer_2" class="form-check-label"
+            >To Make Text Italic</label
+          >
+        </div>
+        <div class="answer p-2">
+          <input
+            type="radio"
+            class="form-check-input"
+            name="question"
+            id="answer_3"
+          />
+          <label for="answer_3" class="form-check-label"
+            >To Add Breakline</label
+          >
+        </div>
+        <div class="answer p-2">
+          <input
+            type="radio"
+            class="form-check-input"
+            name="question"
+            id="answer_4"
+          />
+          <label for="answer_4" class="form-check-label"
+            >To Add Horizontal Line</label
+          >
+        </div> -->
+      </div>
+      <button type="button" class="btn btn-primary w-100 mt-3 mb-2 mx-auto">
+        Submit Answer
+      </button>
+      <div class="bullets bg-white p-3 d-flex">
+        <div class="spans d-flex flex-grow-1"></div>
+        <div class="countdown"></div>
+      </div>
+      <div class="results mt-2"></div>
+    </div>
+    <script src="js/main.js"></script>
+  </body>
+</html>
